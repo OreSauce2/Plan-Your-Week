@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weekly Planner</title>
+</head>
+<body>
+    <div class="container">
+        <div class="planner">
+            <h2>Weekly Planner</h2>
+            <p>Plan your week with this simple planner</p>
+            <div class="days">
+                <div class="day monday">
+                    <h3>Monday</h3>
+                    <ul class="task-list" id="monday"></ul>
+                    <input class="task-input" id="monday-input" type="text" placeholder="Add task">
+                    <button class="add-task-button" onclick="addTask('monday')">Add</button>
+                </div>
+                <div class="day tuesday">
+                    <h3>Tuesday</h3>
+                    <ul class="task-list" id="tuesday"></ul>
+                    <input class="task-input" id="tuesday-input" type="text" placeholder="Add task">
+                    <button class="add-task-button" onclick="addTask('tuesday')">Add</button>
+                </div>
+                <div class="day wednesday">
+                    <h3>Wednesday</h3>
+                    <ul class="task-list" id="wednesday"></ul>
+                    <input class "task-input" id="wednesday-input" type="text" placeholder="Add task">
+                    <button class="add-task-button" onclick="addTask('wednesday')">Add</button>
+                </div>
+                <div class="day thursday">
+                    <h3>Thursday</h3>
+                    <ul class="task-list" id="thursday"></ul>
+                    <input class="task-input" id="thursday-input" type="text" placeholder="Add task">
+                    <button class="add-task-button" onclick="addTask('thursday')">Add</button>
+                </div>
+                <div class="day friday">
+                    <h3>Friday</h3>
+                    <ul class="task-list" id="friday"></ul>
+                    <input class="task-input" id="friday-input" type="text" placeholder="Add task">
+                    <button class="add-task-button" onclick="addTask('friday')">Add</button>
+                </div>
+                <div class="day saturday">
+                    <h3>Saturday</h3>
+                    <ul class="task-list" id="saturday"></ul>
+                    <input class="task-input" id="saturday-input" type="text" placeholder="Add task">
+                    <button class="add-task-button" onclick="addTask('saturday')">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

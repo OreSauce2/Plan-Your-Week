@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: url('images/weekly\ app.jpg');
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.planner {
+    width: 100%;
+    max-width: 1200px;
+    background: rgba(197, 136, 108, 0.5); 
+    margin: 50px auto 20px;
+    padding: 20px; /* Reduce padding for a more streamlined look */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(173, 159, 159, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h2 {
+    color: #fffefe;
+    font-size: 28px;
+    text-align: center;
+    margin: 20px 0;
+    width: 100%; /* Make h2 full width */
+    font-weight: 800;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p {
+    color: #fffefe;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 0;
+    width: 100%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.days {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%; /* Make days full width */
+}
+
+.day {
+    width: calc(33.33% - 20px);
+    background: #000000;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.day:hover {
+    /* background: #ff875d; */
+    background: #ff4c3b;
+}
+
+h3 {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.task-list { 
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+    width: 100%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+font-weight: 800;
+}
+
+.task-input {
+    width: 100%; /* Make the input full width */
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.add-task-button {
+    border: none;
+    padding: 10px 20px;
+    background: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+    margin: 10% 0;
+    font-weight: 800;
+}
+
+.add-task-button:hover {
+    background: #070100;
+}
+
+
+#wednesday-input {
+    width: 100%; /* Make the input full width */
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.delete-button{
+    border: none;
+    /* padding: 10px 20px; */
+    border: none;
+    padding: 10px 20px;
+    background: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+    margin: 10% 0;
+    font-weight: 800;
+}
+
+.delete-button:hover {
+    background: #000000;
+    color: #f2f2f2;
+}
